@@ -1,3 +1,5 @@
+# GuessingGameWeb
+
 I built this guessing game as a way to solidify the knowledge I gained while teaching myself how to code websites.
 
 I learnt how to build a page and style it using html and css. I then learnt how I can work with javascript and 
