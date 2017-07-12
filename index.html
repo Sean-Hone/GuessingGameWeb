@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guessing Game</title>
+        <link href='ggStyle.css' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Exo+2:200i,400" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Can You Guess The Number?</h1>
+
+        <h2> I'm thinking of a number between 1 and 100.<br/>
+             Try guess it in as few goes as possible.</h2>
+
+
+        <!-- This div holds all of the interaaction elements and status for the game -->
+        <div id='functionality'>
+
+            <input type='text' placeholder='Guess Number Here' class='interaction' id='numbox'>
+            <input type='submit' value='Guess' class='interaction' id='guessBut'>
+
+            <div id='restartDiv'>
+                <button type='button' id='restart' >Restart</button>
+                <h3 id='status'>Have a guess!</h3>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type='text/javascript' src='ggjs.js'></script>
+
+    </body>
+</html>
