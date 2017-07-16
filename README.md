@@ -17,3 +17,6 @@ otherwise it flashes red.
 It is a relatively simple game but if I were to build upon this game I could allow the user to select the range
 of the random number. I could also count the number of guesses it took fo them to guess the number. Instead I am 
 starting on a new website that will have a retro arcade style game.
+
+Try it out here:
+https://sean-hone.github.io/GuessingGameWeb/
